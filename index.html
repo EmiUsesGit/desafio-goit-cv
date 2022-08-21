@@ -5,36 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Contenedor Principal -->
-    <main>
+    <div class="contenedor-principal">
+        <!-- Información General -->
+        <div class="informacion-general">
         <!-- Descripción -->
-        <div>
-            <h2>Front End Developer / QA Tester</h2>
+        <div class="descripcion">
+            <h2 class="descripcion-profesion">Front End Developer / QA Tester</h2>
             <h1>Emiliano Ayala</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam atque maiores placeat, blanditiis et facere sapiente quis voluptas magnam, architecto ipsum odit error ad minima reprehenderit cumque quidem adipisci. Suscipit.</p>
         </div>
         <!-- Proyectos -->
-        <div>
+        <div class="proyectos">
             <h3>Proyectos</h3>
             <ol>
-                <li><a href="https://barbershop.goit.global/" target="_blank">https://barbershop.goit.global/</a>
+                <li>
+                <a href="https://barbershop.goit.global/" target="_blank">https://barbershop.goit.global/</a>
                 <span>......</span>
                 [ HTML5, CSS3 ]
                 </li>
-                <li><a href="https://cryptohub.goit.global/" target="_blank">https://cryptohub.goit.global/</a>
+                <li>
+                <a href="https://cryptohub.goit.global/" target="_blank">https://cryptohub.goit.global/</a>
                 <span>......</span>
                 [ JavaScript ]
                 </li>
-                <li><a href="https://kidslike.goit.global/" target="_blank">https://kidslike.goit.global/</a>
+                <li>
+                <a href="https://kidslike.goit.global/" target="_blank">https://kidslike.goit.global/</a>
                 <span>......</span>
                 [ React.js, Node.js ]
                 </li>
             </ol>
         </div>
         <!-- Experiencia Laboral -->
-        <div>
+        <div class="experiencia-laboral">
             <h3>Experiencia Laboral</h3>
             <div>
                 <h4>Front-End Developer Freelance</h4>
@@ -66,17 +75,20 @@
             </div>
         </div>
         <!-- Educación -->
-        <div>
+        <div class="educacion">
             <h3>Educación</h3>
-            <h4>National University</h4>
-            <h5>Management</h5>
-            <p>September 2009 - June 2014   |   Country</p>
+            <div>
+                <h4>National University</h4>
+                <h5>Management</h5>
+                <p>September 2009 - June 2014   |   Country</p>
+            </div>
         </div>
+    </div>
         <!-- Descripción Secundaria -->
-        <aside>
+        <aside class="informacion-lateral">
             <img src="imagenes/yo.jfif" alt="Mi foto de perfil." width="300">
             <!-- Contacto -->
-            <div>
+            <div class="contactos">
                 <h3>Contact</h3>
                 <div>
                     <span>C:</span>
@@ -88,7 +100,7 @@
                 </div>
             </div>
             <!-- Habilidades -->
-            <div>
+            <div class="habilidades-tecnicas">
                 <h3>Tech Skills</h3>
                 <ul>
                     <li>HTML5</li>
@@ -101,7 +113,7 @@
                 </ul>
             </div>
             <!-- Habilidades Soft -->
-            <div>
+            <div class="habilidades-blandas">
                 <h3>Soft Skills</h3>
                 <ul>
                     <li>Scrum</li>
@@ -111,6 +123,6 @@
                 </ul>
             </div>
         </aside>
-    </main>
+    </div>
 </body>
 </html>
