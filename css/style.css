@@ -7,6 +7,8 @@ li {
     line-height: 24px;
 }
 
+/* Contenido principal */
+
 .contenedor-principal {
     display: flex;
     flex-direction: row-reverse;
@@ -15,8 +17,9 @@ li {
     width: 1200px
 }
 
+/* Descripción */
+
 .descripcion {
-    background-color: #a1b4d1;
     margin-bottom: 40px;
 }
 
@@ -25,18 +28,60 @@ li {
     font-weight: 700;
 }
 
-.proyectos {
-    background-color: #a1d1d1;
-}
-
-.experiencia-laboral {
-    background-color: #d1cda1;
-}
-
-.educacion {
-    background-color: #a1d1b0;
-}
+/* Información Lateral */
 
 .informacion-lateral {
     background-color: #1E2939;
+    padding: 40px 0;
+}
+
+.titulo-lateral {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+}
+
+.contactos, .habilidades-tecnicas, .habilidades-blandas {
+    margin-left: 40px;
+}
+
+/* Sección Contactos */
+
+.tipo-contacto {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.contacto-info {
+    color: #8A929F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Sección de Lista */
+
+.lista-lateral {
+    padding: 0;
+    padding-left: 18px;
+}
+
+.lista-lateral li {
+    color: #FB6D3A;
+}
+
+.elemento-lista-lateral {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
